@@ -1,0 +1,381 @@
+/* HEADER WRAPPER */
+.main-header {
+  padding: 20px;
+}
+
+/* ROUNDED RED BAR */
+.header-container {
+  background: linear-gradient(#6e0404);
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO + TEXT GROUP */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+/* LOGO IMAGE */
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+/* TEXT STACK */
+.logo-text {
+  color: white;
+  font-weight: bold;
+  line-height: 1.1;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-text span {
+  display: block;
+  font-size: 28px;
+}
+
+/* NAVIGATION */
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* UNDERLINE EFFECT */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+
+.announcement {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: black;
+}
+.announcement-badge {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #6e0404; /* deep red */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+.announcement-text {
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+body {
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+.hero {
+  width: 95%;
+  height: 430px;
+  max-height: 500px;
+  background-image: url("https://wallpapers.com/images/high/death-egg-1610-x-1080-wallpaper-zbnc4cbqxlzjsk97.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  overflow: hidden;
+  margin-left: 20px;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+.hero-content {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+.hero-title {
+  background-color: #6e0404;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.hero-text {
+  background-color: #6e0404;
+  color: white;
+  padding: 18px;
+  border-radius: 14px;
+  border: 2px solid white;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.reviews {
+  padding: 80px 40px;
+  text-align: center;
+  color: white;
+}
+.reviews-title {
+  display: inline-block;
+  background: #6e0404;
+  padding: 10px 22px;
+  border-radius: 14px;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.reviews-subtitle {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 16px;
+}
+.reviews-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.review-card {
+  background-color: rgb(44, 44, 44);
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+}
+.stars {
+  color: rgb(255, 217, 46);
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.review-author {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.review-center img {
+  width: 140px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.192));
+}
+.review-button {
+  display: inline-block;
+  background-color: #6e0404;
+  color: white;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+
+.alt-hero {
+  background-position: 0% 20%;
+  background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/43/434805/3208616-screen%20shot%202017-03-17%20at%2015.27.53.png);
+}
+.alt-hero {
+  justify-content: flex-start;
+  padding-left: 40px;
+  padding-right: 0;
+}
+.hero-content.left {
+  left: 40px;
+  right: auto;
+  text-align: left;
+}
+.hero-content {
+  right: 40px;
+}
+.alt-hero {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+
+.bottom-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  margin: 0% 30% 0% 30%
+}
+.cta-title {
+  display: inline-block;
+  background-color: #6e0404;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 14px;
+  border: 2px solid white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #6e0404;
+  color:  white;
+  padding: 14px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 3px solid white;
+  text-decoration: none;
+}
+.cta-button :hover {
+  background-color: #470303;
+}
+.cta-logo img {
+  width: 160px;
+  filter: drop-shadow(0 0 20px rgba(255,255,255,0.3));
+}
+.cta-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.team-main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px;
+  margin: 0% 20% 0% 20%;
+}
+.team-card.large {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 24px;
+  border-radius: 16px;
+  color: white;
+  border: 2px solid white;
+  justify-content: flex-end;
+}
+.team-card.large img {
+  width: 180px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  object-position: top;
+}
+.team-card.red { background: #6e0404; }
+.team-card.purple { background: #3b1b5a; }
+.team-card.pink { background: #7a1f3d; }
+.orange { background: #8b4b00; }
+.blue   { background: #002f6e; }
+.gray   { background: #5a5a5a; }
+.red    { background: #6e0404; }
+
+.team-secondary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 60px;
+  margin: 0% 10% 0% 10%;
+}
+.team-card.small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 14px;
+  text-align: center;
+  color: white;
+}
+.team-card.small img {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.team-name {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: 8px;
+}
+
+.team-name:hover {
+  border-bottom: 2px solid white;
+  
+}
+.character-title {
+  display: inline-block;
+
+  background-color: none;
+  color: white;
+
+  padding: 8px 18px;
+  margin-bottom: 12px;
+
+  border: 2px solid white;
+  border-radius: 12px;
+
+  font-weight: bold;
+  font-size: 18px;
+
+  text-decoration: none;
+}
+.character-title:link,
+.character-title:visited {
+  color: white;
+}
+.character-title:hover {
+  background-color: none;
+  transform: scale(1.05);
+}
+.character-title:active {
+  background-color: #5a0202;
+}
+
+
+.page-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: black;
+}
+.page-image img {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 15px;
+}
